@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8255b6-d3aa-4a68-aadb-d74926bb157c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ControlEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ControlEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MoveRigidbody.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MoveRigidbody.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ControlEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ControlEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveRigidbody.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveRigidbody.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +17,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/2f/4a7a2f90/Action`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AccelerationMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotationShip.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,10 +35,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MoveRigidbody.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputFieldPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ControlEvents.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveRigidbody.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1x2UJH8GZVBzXgu0abrFb0gzy4U" />
@@ -90,7 +87,7 @@
       <workItem from="1629552650141" duration="280000" />
       <workItem from="1629553346299" duration="1052000" />
       <workItem from="1629632418157" duration="4415000" />
-      <workItem from="1629800221109" duration="6234000" />
+      <workItem from="1629800221109" duration="8683000" />
     </task>
     <servers />
   </component>
