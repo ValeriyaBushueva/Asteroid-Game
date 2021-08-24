@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Бушуев\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Бушуев\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Asteroid Game.-774744468.00" t="ExcludeRecursive" />
+    <e p="D:\GeekBrains\Asteroid Game\Asteroid Game" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Resources" t="Include">
+          <e p="BillingMode.json" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="AccelerationMove.cs" t="Include" />
+          <e p="IMove.cs" t="Include" />
+          <e p="IRotation.cs" t="Include" />
+          <e p="MoveTransform.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="RotationShip.cs" t="Include" />
+          <e p="Ship.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Asteroid Game.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
