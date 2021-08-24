@@ -10,13 +10,16 @@ internal sealed class Player : MonoBehaviour
     private Camera camera;
     private Ship ship;
     private InstantiateBullet instantiateBullet;
+    [SerializeField] private ControlEvents controlEvents;
 
     private void Start()
     {
         camera = Camera.main;
-        var moveTransform = new AccelerationMove(transform, speed, acceleration);
+        Rigidbody2D rigidBody = GetComponent<Rigidbody2D>();
+        var moveTransform = new MoveRigidbody(rigidBody, speed);
         var rotation = new RotationShip(transform);
         ship = new Ship(moveTransform, rotation);
+        
     }
 
     private void Update()
@@ -44,15 +47,5 @@ internal sealed class Player : MonoBehaviour
         }
         
     }
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (hp <= 0)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            hp--;
-        }
-    }
+   
 }

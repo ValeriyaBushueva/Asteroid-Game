@@ -11,9 +11,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AccelerationMove.cs" t="Include" />
+          <e p="ControlEvents.cs" t="Include" />
           <e p="IMove.cs" t="Include" />
           <e p="InstantiateBullet.cs" t="Include" />
           <e p="IRotation.cs" t="Include" />
+          <e p="MoveRigidbody.cs" t="Include" />
           <e p="MoveTransform.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerCollisionDeath.cs" t="Include" />

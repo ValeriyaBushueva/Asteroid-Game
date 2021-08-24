@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8255b6-d3aa-4a68-aadb-d74926bb157c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ControlEvents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ControlEvents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MoveRigidbody.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MoveRigidbody.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +35,19 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/IRotation.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RotationShip.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Ship.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveRigidbody.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InputFieldPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ControlEvents.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1x2UJH8GZVBzXgu0abrFb0gzy4U" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -85,7 +90,7 @@
       <workItem from="1629552650141" duration="280000" />
       <workItem from="1629553346299" duration="1052000" />
       <workItem from="1629632418157" duration="4415000" />
-      <workItem from="1629800221109" duration="2721000" />
+      <workItem from="1629800221109" duration="6234000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-    public class PlayerCollisionDeath
+    public class PlayerCollisionDeath: MonoBehaviour
     {   
         [SerializeField] private float hp;
 
@@ -8,12 +8,13 @@
         {
             if (hp <= 0)
             {
-               // Destroy(gameObject);
+                Destroy(gameObject);
             }
             else
             {
                 hp--;
             }
         }
+        
         
     }
