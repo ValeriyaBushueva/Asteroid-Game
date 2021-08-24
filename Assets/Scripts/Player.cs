@@ -7,11 +7,9 @@ internal sealed class Player : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float acceleration;
     [SerializeField] private float hp;
-    [SerializeField] private Rigidbody2D bullet;
-    [SerializeField] private Transform barrel;
-    [SerializeField] private float force;
     private Camera camera;
     private Ship ship;
+    private InstantiateBullet instantiateBullet;
 
     private void Start()
     {
@@ -42,8 +40,7 @@ internal sealed class Player : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            var temAmmunition = Instantiate(bullet, barrel.position, barrel.rotation);
-            temAmmunition.AddForce(barrel.up * force);
+            instantiateBullet.BulletSpawn();
         }
         
     }
