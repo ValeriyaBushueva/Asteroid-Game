@@ -4,17 +4,17 @@ using UnityEngine;
 
 internal sealed class RotationShip : IRotation
 {
-    private readonly Transform transform;
+    private readonly Transform toRotate;
         
-    public RotationShip(Transform transform)
+    public RotationShip(Transform toRotate)
     {
-        this.transform = transform;
+        this.toRotate = toRotate;
     }
 
     public void Rotation(Vector3 direction)
     {
         var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        this.toRotate.transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
 
     }
 }

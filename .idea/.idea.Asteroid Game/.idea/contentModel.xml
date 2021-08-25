@@ -15,6 +15,7 @@
           <e p="IMove.cs" t="Include" />
           <e p="InstantiateBullet.cs" t="Include" />
           <e p="IRotation.cs" t="Include" />
+          <e p="MouseObjectMover.cs" t="Include" />
           <e p="MoveRigidbody.cs" t="Include" />
           <e p="MoveTransform.cs" t="Include" />
           <e p="Player.cs" t="Include" />

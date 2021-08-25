@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ internal sealed class Player : MonoBehaviour
     [SerializeField] private float acceleration;
     [SerializeField] private ControlEvents controlEvents;
     [SerializeField] private InstantiateBullet instantiateBullet;
+    [SerializeField] private Transform mouseTarget;
     
     private Ship ship;
     private IMove move;
@@ -26,6 +28,14 @@ internal sealed class Player : MonoBehaviour
         controlEvents.Fire += instantiateBullet.BulletSpawn;
 
         controlEvents.MoveAxis += Move;
+    }
+
+    private void Update()
+    {
+        Vector3 direction = mouseTarget.position - transform.position;
+        direction.Normalize();
+        
+        rotation.Rotation(direction);
     }
 
     private void Move(Vector2 axis)
