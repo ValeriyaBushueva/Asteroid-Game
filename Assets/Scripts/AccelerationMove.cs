@@ -4,21 +4,21 @@ using UnityEngine;
 
 internal class AccelerationMove : MoveTransform
 {
-    private readonly float _acceleration;
+    private readonly float acceleration;
     
     public AccelerationMove(Transform transform, float speed, float acceleration) : base(transform, speed)
     {
-        _acceleration = acceleration;
+        this.acceleration = acceleration;
     }
     
     public void AddAcceleration()
     {
-        Speed += _acceleration;
+        Speed += acceleration;
     }
 
     public void RemoveAcceleration()
     {
-        Speed -= _acceleration;
+        Speed -= acceleration;
     }
 
 }

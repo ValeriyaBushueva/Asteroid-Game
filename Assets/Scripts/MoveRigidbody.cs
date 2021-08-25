@@ -2,7 +2,6 @@
 
 internal class MoveRigidbody : IMove
 {
-   
     private Rigidbody2D rigidbody;
     private readonly float speed;
     private readonly float acceleration;
@@ -16,18 +15,13 @@ internal class MoveRigidbody : IMove
     }
 
     public float Speed { get; }
+
     public void Move(float horizontal, float vertical, float deltaTime)
     {
         direction = new Vector2(horizontal, vertical).normalized;
 
-        Vector2 maxInputMove = direction * speed;
-        Vector2 velocityDifference = rigidbody.velocity - maxInputMove;
-
+        rigidbody.AddForce(direction * acceleration * deltaTime, ForceMode2D.Impulse);
         
-        
-        if (velocityDifference <= speed)
-        {
-            rigidbody.AddForce(direction *acceleration * deltaTime, ForceMode2D.Impulse);
-        }
+        rigidbody.velocity = Vector2.ClampMagnitude(rigidbody.velocity, speed);
     }
 }

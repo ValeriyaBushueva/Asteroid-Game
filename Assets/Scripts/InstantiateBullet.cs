@@ -1,12 +1,10 @@
 ﻿using UnityEngine;
 
-
 public class InstantiateBullet: MonoBehaviour
     {
         [SerializeField] private Rigidbody2D bullet;
         [SerializeField] private Transform barrel;
         [SerializeField] private float force;
-        
         
         public void BulletSpawn()
         {
