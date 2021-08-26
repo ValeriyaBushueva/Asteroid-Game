@@ -10,7 +10,6 @@
           <e p="BillingMode.json" t="Include" />
         </e>
         <e p="Scripts" t="Include">
-          <e p="AccelerationMove.cs" t="Include" />
           <e p="ControlEvents.cs" t="Include" />
           <e p="IMove.cs" t="Include" />
           <e p="InstantiateBullet.cs" t="Include" />
@@ -21,7 +20,6 @@
           <e p="Player.cs" t="Include" />
           <e p="PlayerCollisionDeath.cs" t="Include" />
           <e p="RotationShip.cs" t="Include" />
-          <e p="Ship.cs" t="Include" />
         </e>
       </e>
       <e p="Asteroid Game.sln" t="IncludeFlat" />

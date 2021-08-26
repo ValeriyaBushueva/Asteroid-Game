@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 internal sealed class Player : MonoBehaviour
@@ -11,20 +8,15 @@ internal sealed class Player : MonoBehaviour
     [SerializeField] private InstantiateBullet instantiateBullet;
     [SerializeField] private Transform mouseTarget;
     
-    private Ship ship;
     private IMove move;
     private IRotation rotation;
-
-
+    
     private void Start()
     {
         Rigidbody2D rigidBody = GetComponent<Rigidbody2D>();
         move = new MoveRigidbody(rigidBody, speed, acceleration);
         rotation = new RotationShip(transform);
         
-        ship = new Ship(move, rotation);
-
-
         controlEvents.Fire += instantiateBullet.BulletSpawn;
 
         controlEvents.MoveAxis += Move;
