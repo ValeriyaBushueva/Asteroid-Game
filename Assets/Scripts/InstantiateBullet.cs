@@ -1,23 +1,22 @@
 ﻿using System;
 using UnityEngine;
 
-public class InstantiateBullet: MonoBehaviour
+public class InstantiateBullet : MonoBehaviour, IPooledObject
+{
+    [SerializeField] private Rigidbody2D bullet;
+    [SerializeField] private Transform barrel;
+    [SerializeField] private float force;
+
+    private ObjectPooler objectPooler;
+
+  public  void OnObjectSpawn()
     {
-        [SerializeField] private Rigidbody2D bullet;
-        [SerializeField] private Transform barrel;
-        [SerializeField] private float force;
-
-        private ObjectPooler objectPooler;
-
-        private void Start()
-        {
-            objectPooler =ObjectPooler.Instance;
-        }
-
-        public void BulletSpawn()
-        {
-            ObjectPooler.Instance.SpawnFromPool("Laser", transform.position, Quaternion.identity);
-            // var temAmmunition = Instantiate(bullet, barrel.position, barrel.rotation);
-            // temAmmunition.AddForce(barrel.up * force);
-        }
+        objectPooler = ObjectPooler.Instance;
     }
+
+    public void BulletSpawn()
+    {
+        GameObject bullet = ObjectPooler.Instance.SpawnFromPool("Laser", transform.position, Quaternion.identity);
+        bullet.GetComponent<Rigidbody2D>().AddForce(barrel.up * force);
+    }
+}

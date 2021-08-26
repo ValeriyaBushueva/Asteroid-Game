@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8255b6-d3aa-4a68-aadb-d74926bb157c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullets/LaserBig.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullets/LaserBig.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObjectPooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ObjectPooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IPooledObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IPooledObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +37,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ControlEvents.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RotationShip.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" />
-      <option value="$PROJECT_DIR$/Assets/ObjectPooler.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IPooledObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/ObjectPooler.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1x2UJH8GZVBzXgu0abrFb0gzy4U" />
@@ -53,6 +51,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -69,10 +69,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="22252">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="22252" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -92,7 +92,7 @@
       <workItem from="1629632418157" duration="4415000" />
       <workItem from="1629800221109" duration="9719000" />
       <workItem from="1629870265831" duration="2348000" />
-      <workItem from="1629967377340" duration="3062000" />
+      <workItem from="1629967377340" duration="4543000" />
     </task>
     <servers />
   </component>
@@ -115,5 +115,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/ObjectPooler.cs</url>
+          <line>52</line>
+          <properties documentPath="D:\GeekBrains\Asteroid Game\Asteroid Game\Assets\ObjectPooler.cs" initialLine="52" containingFunctionPresentation="method 'SpawnFromPool'">
+            <startOffsets>
+              <option value="1167" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1168" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

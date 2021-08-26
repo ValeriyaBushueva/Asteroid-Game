@@ -23,10 +23,11 @@ public class ObjectPooler : MonoBehaviour
     }
 
     #endregion
-    
+
 
     public List<Pool> pools;
     public Dictionary<string, Queue<GameObject>> poolDictionary;
+
     void Start()
     {
         poolDictionary = new Dictionary<string, Queue<GameObject>>();
@@ -41,27 +42,33 @@ public class ObjectPooler : MonoBehaviour
                 obj.SetActive(false);
                 objectPool.Enqueue(obj);
             }
-            poolDictionary.Add(pool.tag,objectPool);
+
+            poolDictionary.Add(pool.tag, objectPool);
         }
     }
 
     public GameObject SpawnFromPool(string tag, Vector3 position, Quaternion rotation)
     {
-        if(poolDictionary.ContainsKey(tag))
+        if (!poolDictionary.ContainsKey(tag))
         {
-            Debug.LogWarning("Pool with tag" + tag + "doesn't exsist");
+            Debug.LogError($"Pool with tag {tag} doesn't exist");
             return null;
         }
-        
-       GameObject objectToSpawn =  poolDictionary[tag].Dequeue();
-       
-       objectToSpawn.SetActive(true);
-       objectToSpawn.transform.position = position;
-       objectToSpawn.transform.rotation = rotation;
-       
-       poolDictionary[tag].Enqueue(objectToSpawn);
-       return objectToSpawn;
-    }
-    
 
+        GameObject objectToSpawn = poolDictionary[tag].Dequeue();
+
+        objectToSpawn.SetActive(true);
+        objectToSpawn.transform.position = position;
+        objectToSpawn.transform.rotation = rotation;
+
+        IPooledObject pooledObject = objectToSpawn.GetComponent<IPooledObject>();
+
+        if (pooledObject != null)
+        {
+            pooledObject.OnObjectSpawn();
+        }
+
+        poolDictionary[tag].Enqueue(objectToSpawn);
+        return objectToSpawn;
+    }
 }
