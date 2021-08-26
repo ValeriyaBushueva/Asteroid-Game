@@ -21,6 +21,7 @@
           <e p="MoveTransform.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerCollisionDeath.cs" t="Include" />
+          <e p="PooledBullet.cs" t="Include" />
           <e p="RotationShip.cs" t="Include" />
         </e>
       </e>

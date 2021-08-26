@@ -1,5 +1,5 @@
 
 public interface IPooledObject
 {
-    void OnObjectSpawn();
+    void OnObjectSpawn(string poolTag, ObjectPooler pool);
 }

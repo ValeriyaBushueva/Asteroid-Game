@@ -322,7 +322,7 @@ MonoBehaviour:
   - tag: Laser
     prefab: {fileID: 4598079709259890573, guid: e1594fa8b27a70d46a43717574bdfe66,
       type: 3}
-    size: 100
+    size: 50
 --- !u!4 &119873248
 Transform:
   m_ObjectHideFlags: 0
@@ -488,7 +488,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e6908aefebd4161852ee938e7fa4e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 4598079709259890572, guid: e1594fa8b27a70d46a43717574bdfe66, type: 3}
   barrel: {fileID: 831431234}
   force: 2000
 --- !u!1 &403062818
