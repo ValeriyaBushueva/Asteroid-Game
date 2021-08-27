@@ -8,6 +8,8 @@ internal sealed class Player : MonoBehaviour
     [SerializeField] private InstantiateBullet instantiateBullet;
     [SerializeField] private Transform mouseTarget;
     
+    
+    
     private IMove move;
     private IRotation rotation;
     

@@ -12,17 +12,24 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ControlEvents.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemySpawner.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
           <e p="IMove.cs" t="Include" />
           <e p="InstantiateBullet.cs" t="Include" />
           <e p="IPooledObject.cs" t="Include" />
           <e p="IRotation.cs" t="Include" />
+          <e p="IUnit.cs" t="Include" />
+          <e p="IUnitFactory.cs" t="Include" />
           <e p="MouseObjectMover.cs" t="Include" />
+          <e p="MoveOverScreen.cs" t="Include" />
           <e p="MoveRigidbody.cs" t="Include" />
           <e p="MoveTransform.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerCollisionDeath.cs" t="Include" />
           <e p="PooledBullet.cs" t="Include" />
           <e p="RotationShip.cs" t="Include" />
+          <e p="UnitFactory.cs" t="Include" />
         </e>
       </e>
       <e p="Asteroid Game.sln" t="IncludeFlat" />
