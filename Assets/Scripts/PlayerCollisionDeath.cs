@@ -6,6 +6,7 @@
 
         private void OnCollisionEnter2D(Collision2D other)
         {
+            
             if (hp <= 0)
             {
                 Destroy(gameObject);

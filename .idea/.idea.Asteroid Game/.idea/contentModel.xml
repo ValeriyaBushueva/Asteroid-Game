@@ -11,9 +11,9 @@
           <e p="BillingMode.json" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AsteroidEnemySpawner.cs" t="Include" />
           <e p="ControlEvents.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
-          <e p="EnemySpawner.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="IMove.cs" t="Include" />
           <e p="InstantiateBullet.cs" t="Include" />
@@ -29,6 +29,7 @@
           <e p="PlayerCollisionDeath.cs" t="Include" />
           <e p="PooledBullet.cs" t="Include" />
           <e p="RotationShip.cs" t="Include" />
+          <e p="ShipEnemySpawner.cs" t="Include" />
           <e p="UnitFactory.cs" t="Include" />
         </e>
       </e>
