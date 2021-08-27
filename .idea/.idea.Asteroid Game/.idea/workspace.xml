@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8255b6-d3aa-4a68-aadb-d74926bb157c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyObjectFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyObjectFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelPopulator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelPopulator.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Asteroids/Asteroid1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Asteroids/Asteroid1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Asteroids/Asteroid2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Asteroids/Asteroid2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Asteroids/Asteroid3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Asteroids/Asteroid3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Asteroids/SpaceshipBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Asteroids/SpaceshipBlue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullets/Laser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullets/Laser.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IUnit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IUnit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IUnitFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IUnitFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShipEnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShipEnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitFactory.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +32,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UnitFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/2f/4a7a2f90/Action`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotationShip.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IUnitFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidEnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IPooledObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -60,9 +65,16 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelEnemyPopulator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IEnemyObjectFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GeneralEnemyObjectSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelEnemyObjectPopulator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelEnemyObjectSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemySpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipEnemySpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyObjectFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelPopulator.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1x2UJH8GZVBzXgu0abrFb0gzy4U" />
@@ -116,7 +128,7 @@
       <workItem from="1629800221109" duration="9719000" />
       <workItem from="1629870265831" duration="2348000" />
       <workItem from="1629967377340" duration="11176000" />
-      <workItem from="1630052444037" duration="12696000" />
+      <workItem from="1630052444037" duration="16027000" />
     </task>
     <servers />
   </component>
