@@ -1,4 +1,5 @@
 ﻿using System;
+using DefaultNamespace;
 using UnityEngine;
 
 public class InstantiateBullet : MonoBehaviour
@@ -8,7 +9,11 @@ public class InstantiateBullet : MonoBehaviour
     
     public void BulletSpawn()
     {
-        GameObject bullet = ObjectPooler.Instance.SpawnFromPool("Laser", barrel.position, barrel.rotation);
-        bullet.GetComponent<Rigidbody2D>().AddForce(barrel.up * force);
+        BulletBuilder
+            .AsNewBullet
+            .WithPosition(barrel.position)
+            .WithRotation(barrel.rotation)
+            .WithForce(barrel.up * force)
+            .Build();
     }
 }

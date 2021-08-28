@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8255b6-d3aa-4a68-aadb-d74926bb157c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyObjectFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyObjectFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelPopulator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelPopulator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AsteroidEnemySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IUnit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IUnit.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IUnitFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IUnitFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShipEnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShipEnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitFactory.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +36,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ControlEvents.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RotationShip.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IPooledObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PooledBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/ObjectPooler.cs" />
@@ -75,6 +58,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipEnemySpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyObjectFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelPopulator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BulletBuilder.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1x2UJH8GZVBzXgu0abrFb0gzy4U" />
@@ -128,7 +113,7 @@
       <workItem from="1629800221109" duration="9719000" />
       <workItem from="1629870265831" duration="2348000" />
       <workItem from="1629967377340" duration="11176000" />
-      <workItem from="1630052444037" duration="16027000" />
+      <workItem from="1630052444037" duration="17342000" />
     </task>
     <servers />
   </component>
