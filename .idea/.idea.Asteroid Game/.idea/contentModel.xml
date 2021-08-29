@@ -6,29 +6,33 @@
     <e p="D:\GeekBrains\Asteroid Game\Asteroid Game" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ObjectPooler.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="BillingMode.json" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="AsteroidEnemySpawner.cs" t="Include" />
+          <e p="Bootstrap.cs" t="Include" />
           <e p="BulletBuilder.cs" t="Include" />
           <e p="BulletCollision.cs" t="Include" />
           <e p="ControlEvents.cs" t="Include" />
           <e p="EnemyObjectFactory.cs" t="Include" />
           <e p="IMove.cs" t="Include" />
           <e p="InstantiateBullet.cs" t="Include" />
+          <e p="IObjectPool.cs" t="Include" />
           <e p="IPooledObject.cs" t="Include" />
           <e p="IRotation.cs" t="Include" />
+          <e p="IServiceLocator.cs" t="Include" />
           <e p="LevelPopulator.cs" t="Include" />
           <e p="MouseObjectMover.cs" t="Include" />
           <e p="MoveOverScreen.cs" t="Include" />
           <e p="MoveRigidbody.cs" t="Include" />
           <e p="MoveTransform.cs" t="Include" />
+          <e p="ObjectPooler.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerCollisionDeath.cs" t="Include" />
           <e p="PooledBullet.cs" t="Include" />
           <e p="RotationShip.cs" t="Include" />
+          <e p="ServiceLocator.cs" t="Include" />
           <e p="ShipEnemySpawner.cs" t="Include" />
         </e>
       </e>

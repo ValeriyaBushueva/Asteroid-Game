@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8255b6-d3aa-4a68-aadb-d74926bb157c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IObjectPool.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObjectPooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObjectPooler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletBuilder.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitFactory.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/2f/4a7a2f90/Action`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotationShip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidEnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,7 +46,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IPooledObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PooledBullet.cs" />
-      <option value="$PROJECT_DIR$/Assets/ObjectPooler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IUnitFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UnitFactory.cs" />
@@ -59,7 +66,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyObjectFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelPopulator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IServiceLocator.cs" />
+      <option value="$PROJECT_DIR$/Assets/ObjectPooler.cs" />
+      <option value="$PROJECT_DIR$/Assets/IObjectPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BulletBuilder.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ServiceLocator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1x2UJH8GZVBzXgu0abrFb0gzy4U" />
@@ -114,6 +126,7 @@
       <workItem from="1629870265831" duration="2348000" />
       <workItem from="1629967377340" duration="11176000" />
       <workItem from="1630052444037" duration="17342000" />
+      <workItem from="1630249814077" duration="1830000" />
     </task>
     <servers />
   </component>

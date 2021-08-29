@@ -9,8 +9,7 @@ public class InstantiateBullet : MonoBehaviour
     
     public void BulletSpawn()
     {
-        BulletBuilder
-            .AsNewBullet
+        BulletBuilder.AsNewBullet()
             .WithPosition(barrel.position)
             .WithRotation(barrel.rotation)
             .WithForce(barrel.up * force)

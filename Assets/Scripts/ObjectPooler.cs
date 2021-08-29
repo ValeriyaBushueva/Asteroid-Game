@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectPooler : MonoBehaviour
+public class ObjectPooler : MonoBehaviour, IObjectPool
 {
     [System.Serializable]
     public class Pool

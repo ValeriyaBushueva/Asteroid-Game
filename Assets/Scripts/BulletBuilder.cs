@@ -1,23 +1,39 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.SpatialTracking;
+using Object = UnityEngine.Object;
 
 namespace DefaultNamespace
 {
     public class BulletBuilder
     {
-        private ObjectPooler objectPooler;
+        private IObjectPool objectPooler;
+
+        private static IServiceLocator serviceLocator;
 
         private string poolTag = "Laser";
 
         private Quaternion rotation = Quaternion.identity;
         private Vector3 position;
         private Vector2 directionForce;
-        
-        public static BulletBuilder AsNewBullet => new BulletBuilder();
 
         private BulletBuilder()
         {
-            objectPooler = Object.FindObjectOfType<ObjectPooler>();
+            objectPooler = serviceLocator.Get<IObjectPool>();
+        }
+
+        public static BulletBuilder AsNewBullet()
+        {
+            if (serviceLocator == null)
+            {
+                throw new InvalidOperationException("Service locator not injected!");
+            }
+            return new BulletBuilder();
+        }
+
+        public static void InjectServiceLocator(IServiceLocator serviceLocator)
+        {
+            BulletBuilder.serviceLocator = serviceLocator;
         }
 
 
