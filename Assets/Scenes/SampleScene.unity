@@ -123,6 +123,123 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &18614879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 18614881}
+  - component: {fileID: 18614880}
+  m_Layer: 0
+  m_Name: Exposed Dictionary Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &18614880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18614879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21b378453f1e4a248713b75b0431271e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exposedDictionary:
+    ExposedDictionary:
+    - Key: test1
+      Value: 50
+    - Key: test2
+      Value: 10
+    - Key: test3
+      Value: 55
+    - Key: test4
+      Value: 77
+    - Key: test5
+      Value: 81
+--- !u!4 &18614881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18614879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &81944609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 81944611}
+  - component: {fileID: 81944610}
+  m_Layer: 0
+  m_Name: JsonEnemyFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &81944610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81944609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409e4dd17a664365b60c20920f43b588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonEnemyData: {fileID: 4900000, guid: b440b7cb395cf06449614a6a36db6616, type: 3}
+  enemyPrefabs:
+  - Type: mag
+    EnemyPrefab: {fileID: 1712041817187594318, guid: 3d62a22f1f12aa74f9de02cc73c61b87,
+      type: 3}
+  - Type: infantry
+    EnemyPrefab: {fileID: 8205549349313425581, guid: 2cf5bb2cfb9f83a47857cad22a86f471,
+      type: 3}
+  enemyDataCollection:
+    enemyData:
+    - unit:
+        type: mag
+        health: 100
+    - unit:
+        type: infantry
+        health: 150
+    - unit:
+        type: mag
+        health: 50
+--- !u!4 &81944611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81944609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &119873246
 GameObject:
   m_ObjectHideFlags: 0

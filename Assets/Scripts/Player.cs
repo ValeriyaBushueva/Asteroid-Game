@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 internal sealed class Player : MonoBehaviour
@@ -9,7 +10,6 @@ internal sealed class Player : MonoBehaviour
     [SerializeField] private Transform mouseTarget;
     
     
-    
     private IMove move;
     private IRotation rotation;
     
@@ -19,7 +19,7 @@ internal sealed class Player : MonoBehaviour
         move = new MoveRigidbody(rigidBody, speed, acceleration);
         rotation = new RotationShip(transform);
         
-        controlEvents.Fire += instantiateBullet.BulletSpawn;
+        controlEvents.Fire += OnFire;
 
         controlEvents.MoveAxis += Move;
     }
@@ -35,5 +35,21 @@ internal sealed class Player : MonoBehaviour
     private void Move(Vector2 axis)
     {
         move.Move(axis.x, axis.y, Time.deltaTime);
+    }
+
+    private void OnFire()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        instantiateBullet.BulletSpawn();
+
+        StartCoroutine(UnlockCursor());
+    }
+
+
+    private IEnumerator UnlockCursor()
+    {
+        yield return new WaitForSeconds(1);
+
+        Cursor.lockState = CursorLockMode.None;
     }
 }

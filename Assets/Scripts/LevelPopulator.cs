@@ -11,14 +11,7 @@ public class LevelPopulator : MonoBehaviour
     [SerializeField] private float asteroidForce = 100;
     [SerializeField] private float enemyForce = 400;
     
-    private void Start()
-    {
-        CreateAsteroids();
-
-        CreateEnemyShip();
-    }
-
-    private void CreateAsteroids()
+    public void CreateAsteroids()
     {
         for (int i = 0; i < asteroidAmount; i++)
         {
@@ -28,7 +21,7 @@ public class LevelPopulator : MonoBehaviour
         }
     }
 
-    private void CreateEnemyShip()
+    public void CreateEnemyShip()
     {
         GameObject enemyShip = enemyFactory.Create();
 
