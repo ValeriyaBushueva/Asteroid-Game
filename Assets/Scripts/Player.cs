@@ -1,18 +1,30 @@
 using System.Collections;
 using UnityEngine;
 
-internal sealed class Player : MonoBehaviour
+public sealed class Player : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float acceleration;
     [SerializeField] private ControlEvents controlEvents;
     [SerializeField] private InstantiateBullet instantiateBullet;
     [SerializeField] private Transform mouseTarget;
-    
+    [SerializeField] private PlayerModificationComposite modifications;
     
     private IMove move;
     private IRotation rotation;
     
+    public float Speed
+    {
+        get => speed;
+        set => speed = value;
+    }
+
+    public float Acceleration
+    {
+        get => acceleration;
+        set => acceleration = value;
+    }
+
     private void Start()
     {
         Rigidbody2D rigidBody = GetComponent<Rigidbody2D>();
@@ -22,6 +34,16 @@ internal sealed class Player : MonoBehaviour
         controlEvents.Fire += OnFire;
 
         controlEvents.MoveAxis += Move;
+    }
+
+    public void ApplyModifications()
+    {
+        modifications.Handle();
+    }
+
+    public void DiscourageModifications()
+    {
+        modifications.Unhandle();
     }
 
     private void Update()
