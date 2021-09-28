@@ -1,7 +1,10 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
+using AbilityIterator;
 using UnityEngine;
 
-public sealed class Player : MonoBehaviour
+public sealed class Player : MonoBehaviour, IAbilityApplier
 {
     [SerializeField] private float speed;
     [SerializeField] private float acceleration;
@@ -73,5 +76,26 @@ public sealed class Player : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void ApplyAbilities(IEnumerable<IAbility> toApply)
+    {
+        foreach (var ability in toApply)
+        {
+            switch (ability.DamageType)
+            {
+                case DamageType.AOE:
+                    Debug.LogError("AOE damage type is not supported by player");
+                    break;
+                case DamageType.Simple:
+                    Debug.Log($"Simple damage is applied to player: {ability.Name}");
+                    break;
+                case DamageType.Continuous:
+                    Debug.LogError("Continuous damage type is not supported by player");
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
     }
 }

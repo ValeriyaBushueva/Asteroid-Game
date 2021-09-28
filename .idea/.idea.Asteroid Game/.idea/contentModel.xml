@@ -6,34 +6,82 @@
     <e p="D:\GeekBrains\Asteroid Game\Asteroid Game" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Data" t="Include">
+          <e p="EnemyPresets.txt" t="Include" />
+        </e>
         <e p="Resources" t="Include">
           <e p="BillingMode.json" t="Include" />
         </e>
         <e p="Scripts" t="Include">
-          <e p="AsteroidEnemySpawner.cs" t="Include" />
+          <e p="AbilityIterator" t="Include">
+            <e p="Ability.cs" t="Include" />
+            <e p="DamageType.cs" t="Include" />
+            <e p="GameUnitAbilityHolder.cs" t="Include" />
+            <e p="IAbility.cs" t="Include" />
+            <e p="IAbilityApplier.cs" t="Include" />
+            <e p="IAbilityHolder.cs" t="Include" />
+          </e>
+          <e p="Adapter" t="Include">
+            <e p="DictionaryExposer.cs" t="Include" />
+            <e p="DictionaryExposerTest.cs" t="Include" />
+          </e>
           <e p="Bootstrap.cs" t="Include" />
           <e p="BulletBuilder.cs" t="Include" />
           <e p="BulletCollision.cs" t="Include" />
+          <e p="CommandUI" t="Include">
+            <e p="ApplyModifications.cs" t="Include" />
+            <e p="ApplyPlayerModificationsCommand.cs" t="Include" />
+            <e p="Command.cs" t="Include" />
+          </e>
           <e p="ControlEvents.cs" t="Include" />
-          <e p="EnemyObjectFactory.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemyFactory" t="Include">
+            <e p="AsteroidEnemySpawner.cs" t="Include" />
+            <e p="EnemyObjectFactory.cs" t="Include" />
+            <e p="IEnemyFactory.cs" t="Include" />
+            <e p="JsonEnemy" t="Include">
+              <e p="EnemyDataProtocol.cs" t="Include" />
+              <e p="EnemyDataProtocolCollection.cs" t="Include" />
+              <e p="EnemyPrefabByType.cs" t="Include" />
+              <e p="JsonEnemyLoadFactory.cs" t="Include" />
+            </e>
+            <e p="ShipEnemySpawner.cs" t="Include" />
+          </e>
+          <e p="GameFacade.cs" t="Include" />
+          <e p="HandlerChain" t="Include">
+            <e p="ExtraAcceleration.cs" t="Include" />
+            <e p="ExtraSpeed.cs" t="Include" />
+            <e p="PlayerHandler.cs" t="Include" />
+            <e p="PlayerModificationComposite.cs" t="Include" />
+          </e>
+          <e p="IDamageStorage.cs" t="Include" />
           <e p="IMove.cs" t="Include" />
           <e p="InstantiateBullet.cs" t="Include" />
+          <e p="Interpreter" t="Include">
+            <e p="BigNumberShortener.cs" t="Include" />
+          </e>
           <e p="IObjectPool.cs" t="Include" />
           <e p="IPooledObject.cs" t="Include" />
           <e p="IRotation.cs" t="Include" />
           <e p="IServiceLocator.cs" t="Include" />
           <e p="LevelPopulator.cs" t="Include" />
+          <e p="MessageBrokerSystem" t="Include">
+            <e p="MessageBroker.cs" t="Include" />
+          </e>
           <e p="MouseObjectMover.cs" t="Include" />
           <e p="MoveOverScreen.cs" t="Include" />
-          <e p="MoveRigidbody.cs" t="Include" />
-          <e p="MoveTransform.cs" t="Include" />
+          <e p="Moves" t="Include">
+            <e p="MoveRigidbody.cs" t="Include" />
+            <e p="MoveTransform.cs" t="Include" />
+          </e>
           <e p="ObjectPooler.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerCollisionDeath.cs" t="Include" />
           <e p="PooledBullet.cs" t="Include" />
-          <e p="RotationShip.cs" t="Include" />
+          <e p="Rotations" t="Include">
+            <e p="RotationShip.cs" t="Include" />
+          </e>
           <e p="ServiceLocator.cs" t="Include" />
-          <e p="ShipEnemySpawner.cs" t="Include" />
         </e>
       </e>
       <e p="Asteroid Game.sln" t="IncludeFlat" />

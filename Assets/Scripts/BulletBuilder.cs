@@ -16,6 +16,7 @@ namespace DefaultNamespace
         private Quaternion rotation = Quaternion.identity;
         private Vector3 position;
         private Vector2 directionForce;
+        private int damage;
 
         private BulletBuilder()
         {
@@ -48,6 +49,12 @@ namespace DefaultNamespace
             this.rotation = rotation;
             return this;
         }
+        
+        public BulletBuilder WithDamage(int damage)
+        {
+            this.damage = damage;
+            return this;
+        }
 
         public BulletBuilder WithForce(Vector2 directionForce)
         {
@@ -59,7 +66,8 @@ namespace DefaultNamespace
         public GameObject Build()
         {
             GameObject bullet = objectPooler.SpawnFromPool(poolTag, position, rotation);
-            
+
+            bullet.GetComponent<IDamageStorage>().Damage = damage;
             bullet.GetComponent<Rigidbody2D>()?.AddForce(directionForce, ForceMode2D.Impulse);
 
             return bullet;

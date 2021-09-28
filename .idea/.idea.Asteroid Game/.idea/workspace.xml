@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8255b6-d3aa-4a68-aadb-d74926bb157c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IObjectPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IObjectPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/Ability.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/Ability.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/DamageType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/DamageType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/GameUnitAbilityHolder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/GameUnitAbilityHolder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/IAbility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/IAbility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/IAbilityApplier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/IAbilityApplier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/IAbilityHolder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/IAbilityHolder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IDamageStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IDamageStorage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MessageBroker.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ObjectPooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ObjectPooler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +35,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A104889-781C-465C-A00C-12D0953583E2/bd/fbb31c75/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/2f/4a7a2f90/Action`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotationShip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidEnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IPooledObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -52,10 +62,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/IUnit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveOverScreen.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCollisionDeath.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelEnemyPopulator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IEnemyObjectFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GeneralEnemyObjectSpawner.cs" />
@@ -65,13 +73,23 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ShipEnemySpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyObjectFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelPopulator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IServiceLocator.cs" />
       <option value="$PROJECT_DIR$/Assets/ObjectPooler.cs" />
       <option value="$PROJECT_DIR$/Assets/IObjectPool.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/BulletBuilder.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ServiceLocator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/AbilityApplier.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/IAbilityHolder.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/IAbility.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/DamageType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/Ability.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/GameUnitAbilityHolder.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AbilityIterator/IAbilityApplier.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/IDamageStorage.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BulletCollision.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateBullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BulletBuilder.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1x2UJH8GZVBzXgu0abrFb0gzy4U" />
@@ -126,7 +144,8 @@
       <workItem from="1629870265831" duration="2348000" />
       <workItem from="1629967377340" duration="11176000" />
       <workItem from="1630052444037" duration="17342000" />
-      <workItem from="1630249814077" duration="1830000" />
+      <workItem from="1630249814077" duration="2663000" />
+      <workItem from="1632843289479" duration="1750000" />
     </task>
     <servers />
   </component>

@@ -305,6 +305,7 @@ GameObject:
   - component: {fileID: 122154337}
   - component: {fileID: 122154338}
   - component: {fileID: 122154339}
+  - component: {fileID: 122154340}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -329,6 +330,7 @@ MonoBehaviour:
   controlEvents: {fileID: 122154335}
   instantiateBullet: {fileID: 122154336}
   mouseTarget: {fileID: 760114976}
+  modifications: {fileID: 0}
 --- !u!50 &122154332
 Rigidbody2D:
   serializedVersion: 4
@@ -499,6 +501,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.12, y: 4.4}
   m_EdgeRadius: 0
+--- !u!114 &122154340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122154330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05eb5998e71b4a0fbcf63f01482db12d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultAbility:
+    name: Lazer
+    damageType: 1
+    damage: 1
+  specialAbility:
+    name: Lazer update
+    damageType: 1
+    damage: 2
+  generalAbilities:
+  - name: Luck
+    damageType: 1
+    damage: 1
+  - name: For fun
+    damageType: 1
+    damage: 999
 --- !u!1 &414826490
 GameObject:
   m_ObjectHideFlags: 0
